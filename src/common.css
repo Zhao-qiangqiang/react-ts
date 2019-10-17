@@ -1,0 +1,49 @@
+/**
+ * 组件公共样式
+ */
+ .date-range-input_label {
+    text-align: right;
+    font-size: 14px;
+    color: #1a1a1a;
+    padding: 0 12px 11px 0;
+  }
+  
+  /* 列表页条件展示区域 */
+  .list-page_table-operation_container {
+    margin-bottom: 17px;
+    color: #666666;
+    font-size: 14px;
+  }
+  
+  /* 列表页条件分页区域 */
+  .list-page_pagination_container {
+    margin-top: 32px;
+    text-align: center;
+  }
+  
+  .list-page_header {
+    text-align: right;
+    margin-right: -10;
+    min-width: 1080px;
+    margin-bottom: 16px
+  }
+  
+  /* 表格操作按钮 */
+  .table_operation-button {
+    color: #007FFF;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  /* 错误提示样式 */
+  .form-item__error {
+    color: #ff4040;
+    font-size: 12px;
+    line-height: 1;
+    padding-top: 4px;
+    position: absolute;
+    left: 12px;
+  }
+  

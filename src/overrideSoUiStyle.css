@@ -1,0 +1,38 @@
+:root {
+    --color-primary: #ff571a
+      /* 新零售：#3947e6  大风车：#ff571a */
+  }
+  
+  /* so-ui style */
+  .so-icon-search {
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .so-icon-search:hover {
+    color: #fff !important;
+  }
+  
+  .so-breadcrumb {
+    display: inline-block
+  }
+  
+  .v-modal {
+    z-index: 999;
+  }
+  
+  /* 解决提示框被覆盖 */
+  .so-toast {
+    z-index: 1000;
+  }
+  
+  /* antd style */
+  .ant-select-open .ant-select-selection,
+  .ant-select-focused .ant-select-selection,
+  .ant-input:focus,
+  .ant-select-selection:hover {
+    box-shadow: none !important
+  }
+  
+  

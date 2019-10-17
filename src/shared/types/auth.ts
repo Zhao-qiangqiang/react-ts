@@ -1,0 +1,23 @@
+export type IAuth = Partial<{
+  appName: string;
+  deptId: string;
+  deptName: string;
+  empId: string;
+  empName: string;
+  hasResource: string;
+  headImg: string;
+  iid: string;
+  menus: string;
+  orgId: string;
+  orgIds: string;
+  orgName: string;
+  resources: string;
+  roles: string;
+  tentantId: string;
+  tentantName: string;
+  userId: string;
+  userName: string;
+  userNickName: string;
+  userPhone: string;
+}>;
+export type IRoleInfo = { code: string; id: string; name: string };

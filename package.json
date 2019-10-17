@@ -1,0 +1,60 @@
+{
+  "name": "srp-stock",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "i": "yarn --registry=http://registry.npm.souche-inc.com",
+    "start": "muji dev --mode=test",
+    "build-dev": "muji build --mode=dev",
+    "build:dev": "muji build --mode=test",
+    "build:prepub": "muji build --mode=prepub",
+    "build:prod": "muji build --mode=prod",
+    "publish:dev": "sw publish stable2",
+    "theme": "sor-ui-theme -o ./src/theme",
+    "analyze": "muji build --analyze",
+    "test": "node_modules/.bin/tslint src/**/*.ts* src/**/**/*.ts* src/**/**/**/*.ts*"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "commit-msg": "validate-commit-msg"
+    }
+  },
+  "dependencies": {
+    "@souche-f2e/luban-js": "^0.1.5",
+    "@souche-f2e/muji": "^0.3.7",
+    "@souche-f2e/muji-cli": "latest",
+    "@souche-f2e/muji-plugin-antd-vars": "^0.2.6",
+    "@souche-f2e/muji-plugin-loading": "^0.2.6",
+    "@souche-f2e/muji-plugin-typescript": "^0.3.7",
+    "@souche-f2e/souche-menu-partner": "^2.5.0-rc.2",
+    "@souche-f2e/souche-util": "^1.9.1",
+    "@souche-ui/so-cascader-multi": "^1.13.19",
+    "@souche-ui/so-ui-react": "1.13.17",
+    "@srp/ui-components": "^0.0.39",
+    "antd": "^3.19.1",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "path-to-regexp": "^3.0.0",
+    "react-use": "^9.2.0",
+    "styled-components": "^4.2.1",
+    "tslib": "^1.9.3",
+    "typescript": "3.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.133",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
+    "@types/styled-components": "^4.1.15",
+    "babel-plugin-import": "^1.11.2",
+    "husky": "^2.4.0",
+    "moment-locales-webpack-plugin": "^1.0.7",
+    "react-loadable": "^5.5.0",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-react": "^3.6.0",
+    "validate-commit-msg": "^2.14.0"
+  }
+}

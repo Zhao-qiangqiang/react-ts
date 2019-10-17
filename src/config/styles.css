@@ -1,0 +1,64 @@
+.root .title {
+  color: #1A1A1A;
+  font-size: 20px;
+}
+.root .back {
+  background-color: #fafafa;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.root .back .flexWhite {
+  display: flex;
+  width: '100%';
+  align-items: center;
+}
+.root .back .flexWhite .sp {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+.root .back .ro {
+  margin: 24px 0;
+}
+.root .back .searc {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 24px;
+}
+.root .table_loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.root .hta {
+  color: blue;
+}
+.root .flex {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px 0;
+}
+.root .addOrDelete {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.root .modalFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.root .modalFlex .modalDiv {
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+.root .modalLine {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.root .hintInfo {
+  color: red;
+}

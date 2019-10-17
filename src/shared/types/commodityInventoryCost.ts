@@ -1,0 +1,42 @@
+export type BSearchForm = {
+  goodsNo?: any;
+  goodsName?:any;
+  costDomainCode?: string;
+  goodsCategoryList?: any[];
+  stockGoodsTypeCode: string | undefined;
+  page: number;
+  pageSize: number;
+};
+export type BFilterForm = {
+  goodsNo?: string;
+  costDomainCode?: string;
+  stockGoodsTypeCode: string | undefined;
+  stockTypeCode: string | undefined;
+  goodsCategoryList?: any[];
+  noGoodsCostDoMainList?: any[];
+  page: number;
+  pageSize: number;
+};
+export type BAll = {
+  searchForm: BSearchForm;
+  opreateSearchForm: any;
+  filtersForm: BFilterForm;
+  dataSource: any[];
+  totalNumber: number;
+  totals: number;
+  isQueryLoading: boolean;
+  isSearchLoadings: boolean;
+  isChangesLoading: boolean;
+  isShowModals: boolean;
+  wareHouseLists: any[];
+  goodsL1List: any[];
+  goodsL2List: any[];
+  goodsL3List: any[];
+  departmentList: any[];
+  businessAjustmentList: any[];
+  cusNoList: any[];
+  supplierList: any[];
+  detList: any[];
+  dotLists: any[];
+  totalAmount: number;
+};
