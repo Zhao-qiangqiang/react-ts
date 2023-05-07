@@ -35,7 +35,7 @@
     "@srp/ui-components": "^0.0.39",
     "antd": "^3.19.1",
     "immutable": "^4.0.0-rc.12",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "path-to-regexp": "^3.0.0",
     "react-use": "^9.2.0",
